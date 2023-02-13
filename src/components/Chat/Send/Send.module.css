@@ -1,0 +1,32 @@
+.send {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0.5rem;
+  margin: auto;
+}
+
+.send input {
+  width: 50%;
+  height: 2rem;
+  align-self: center;
+  /* margin: 0 auto; */
+  background-color: rgba(148, 148, 148, 0.5);
+  outline: none;
+  border: none;
+  border-radius: 3rem;
+  padding: 1rem;
+}
+
+.send button {
+  height: 2rem;
+  width: 5rem;
+  border-radius: 3rem;
+  margin: 0 1rem;
+  border: none;
+}
+
+.send button:hover {
+  border: 1px solid rgba(148, 148, 148, 0.5);
+}

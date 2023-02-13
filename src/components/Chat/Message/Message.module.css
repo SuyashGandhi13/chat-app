@@ -1,0 +1,44 @@
+.message-body {
+  display: flex;
+  flex-direction: column;
+  min-width: 8%;
+  max-width: 60%;
+  width: fit-content;
+  margin: 0.5rem 0 0.5rem 0.5rem;
+}
+
+.user {
+  padding: 0 0.5rem;
+  font-weight: 600;
+  /* align-self: flex-end; */
+}
+
+.text {
+  /* border: 1px solid red; */
+  border-radius: 1rem;
+  padding: 0.5rem;
+  background-color: white;
+  font-size: 0.9rem;
+}
+
+.text:hover {
+  /* border: 1px solid red; */
+  /* border-radius: 1rem; */
+  /* padding: 1rem; */
+  background-color: rgba(192, 192, 192, 0.5);
+  /* font-size: 0.9rem; */
+}
+
+.type {
+  padding: 0 0.5rem;
+  font-size: 0.8rem;
+  height: 0.9rem;
+}
+
+.sent {
+  align-self: flex-end;
+}
+
+/* .loggedIn {
+  justify-content: right;
+} */

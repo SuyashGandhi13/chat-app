@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  height: 4rem;
+  /* border: 1px solid black; */
+  font-size: 2rem;
+  padding: 0 0.5rem;
+  /* background-color: #99edf0; */
+  /* position: fixed;
+  width: 100%; */
+}
+
+.header-nav {
+  /* font-family: "Courier New", Courier, monospace; */
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  /* color: white; */
+}
+
+.title {
+  font-weight: 600;
+}
+
+.logout:hover {
+  cursor: pointer;
+  color: red;
+}
